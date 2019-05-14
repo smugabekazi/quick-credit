@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     background-position: auto 100%;
     font-family: Arial, Helvetica, sans-serif;
+    background: url(../img/background2.jpg) no-repeat center center fixed;
 }
 header{
   background-color:#17202A;
@@ -52,6 +53,10 @@ header{
     margin: auto;
     top: 50%;
     margin-bottom: 35px;
+}
+ .active{
+  background: #ffc168 !important;
+  color:#800000;
 }
 
 .search-loans {
@@ -227,18 +232,18 @@ input[type = "number"], input[type = "date"], input[type = "tel"] {
     display: block;
     transition: .3s background-color;
   }
-   
-  .nav a:hover {
-    background:none;
-    border: 10px solid #ffc168;
-    color:#ffc168;
-  }
+
+  .nav a:hover { 
+     
+     color:#444; 
+   } 
    
   .nav a.active {
-    background-color: #fff;
-    color: #444;
+    /* background-color: #4b3d8a; */
+    /* color: #999; */
     cursor: default;
   }
+  
    
   @media screen and (min-width: 600px) {
     .nav li {
