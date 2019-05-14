@@ -1,25 +1,36 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400&subset=latin,latin-ext);
 
 body {
-    background-color: #6D96A6;
+    background-color: #d3d3d3;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: auto 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
+header{
+  background-color:#17202A;
+  margin:0;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 .signup-box {
     width: 420px;
-    height: 480px;
-    background: #234A59;
+    height: 450px;
+    background: #17202A;
     color: #fff;
     top: 50%;
     left: 50%;
-    position: absolute;
+     position: absolute; 
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 70px 30px;
     border-radius: 5px;
+    margin-top: 60px; 
 }
 
 .login-box {
@@ -28,7 +39,7 @@ body {
 }
 
 .loanApplication-box {
-    width: 70%;
+    width: 420px;
     height: 850px;
     margin: auto;
     top: 85%;
@@ -96,7 +107,7 @@ h1 {
 
 .loanApplication-box p a:hover {
     text-decoration: none;
-    color: #d3d3d3;
+    color:#d3d3d3;
 }
 
 .signup-box .user-exist {
@@ -144,7 +155,7 @@ input[type = "number"], input[type = "date"], input[type = "tel"] {
 }
 
 .loanApplication-box input[type = "submit"] {
-    width: 20%;
+    width: 50%;
     margin: 35px 40% 0 40%;
     background: none;
     font-size: 14px;
@@ -187,39 +198,40 @@ input[type = "number"], input[type = "date"], input[type = "tel"] {
 .nav ul {
     list-style: none;
     /* background-color: #444; */
-    background-color: transparent;
+    background-color: #17202A;
     text-align: right;
-    padding: 0;
-    margin: 25px 25px;
-  }
+    padding:25px;
+   /* margin: 25px 25px;  */
+}
+  
   .nav li {
     font-family: 'Oswald', sans-serif;
     font-size: 12px;
     line-height: 40px;
-    height: 40px;
+    height: 30px;
     /* border-bottom: 1px solid #888; */
   }
    
   .nav a {
     width: 150px;
-    background: none;
-    font-size: 14px;
+    background: #ffc168;
+    font-size: 12px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
     letter-spacing: 1px;
-    border-radius: 5px;
+    border-radius: 6px;
     /* margin: 0 5px; */
-    color: #ffc168;
+    color:#800000;
     /* border: 2px solid #ffc168; */
     display: block;
     transition: .3s background-color;
   }
    
   .nav a:hover {
-    background: none;
-    border: 2px solid #ffc168;
-    color: #ffc168;
+    background:none;
+    border: 10px solid #ffc168;
+    color:#ffc168;
   }
    
   .nav a.active {
@@ -272,7 +284,8 @@ table {
     font-size: 14px;
   }
   
-  tr:nth-child(odd){background-color: rgba(109, 150, 166, 0.452)}
+  tr:nth-child(odd){background-color:#ff5733 rgb(255, 87, 51)
+  }
   
   th {
     background-color: #6D96A6;
