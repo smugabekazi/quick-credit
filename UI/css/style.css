@@ -18,7 +18,31 @@ header{
   margin: 0;
   padding: 0;
 }
+.title{
+  float: left;
+  margin: 40px;
+  color:#fff;
 
+}
+#words{
+  margin-top:30px;
+  background-color:#17202A;
+  text-align: center;
+  width:60%;
+  margin-left: 19%;
+  font-size:28px;
+  color: white;
+  
+}
+#words p,#words a{
+font-size:24px; 
+color: #800000;
+/* text-align: center; */
+margin: 0;
+
+
+
+}
 .signup-box {
     width: 420px;
     height: 450px;
@@ -198,7 +222,9 @@ input[type = "number"], input[type = "date"], input[type = "tel"] {
 .signup-box a:hover {
     color: #ffc107;
 }
-
+/* .nav{ */
+  /* float: right; */
+/* } */
 /* Navigation bar */
 .nav ul {
     list-style: none;
@@ -259,7 +285,9 @@ input[type = "number"], input[type = "date"], input[type = "tel"] {
       display: inline-block;
       /* margin-right: -4px; */
     }
-   
+    .loanApplication-box input[type = "submit"]{
+      margin: 20px auto;
+    }
     /* Options 2 - Float
     .nav li {
       float: left;
@@ -273,7 +301,7 @@ input[type = "number"], input[type = "date"], input[type = "tel"] {
       background-color: #444;
     }
     */
-  }
+  
 
   /* End Navigation menu */
 
@@ -374,3 +402,4 @@ article.tabs {
     /* z-index: 2; */
   }
 
+  }
