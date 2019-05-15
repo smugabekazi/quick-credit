@@ -24,14 +24,25 @@ header{
   color:#fff;
 
 }
-#words{
+.header-loan{
+  top:0;
+}
+.words p{
+  margin:50px auto;
+  font-size:40px;
+  padding: 30px;
+  line-height: 40px;
+
+}
+.words{
   margin-top:30px;
   background-color:#17202A;
   text-align: center;
   width:60%;
   margin-left: 19%;
-  font-size:28px;
+  font-size:24px;
   color: white;
+  height:300px;
   
 }
 #words p,#words a{
@@ -222,9 +233,16 @@ input[type = "number"], input[type = "date"], input[type = "tel"] {
 .signup-box a:hover {
     color: #ffc107;
 }
-/* .nav{ */
-  /* float: right; */
-/* } */
+.nav{
+  margin: 0;
+  padding: 0;
+  top:0;
+ }
+ .navbar ul{
+  background-color: #17202A;
+   list-style: none;
+ }
+
 /* Navigation bar */
 .nav ul {
     list-style: none;
@@ -232,6 +250,7 @@ input[type = "number"], input[type = "date"], input[type = "tel"] {
     background-color: #17202A;
     text-align: right;
     padding:25px;
+    top:0;
    /* margin: 25px 25px;  */
 }
   
